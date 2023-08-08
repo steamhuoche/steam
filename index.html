@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>游戏火车Steam等级计算器</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>游戏火车Steam等级计算器</h1>
+            <p>计算你升级到目标等级需要的卡牌套数</p>
+        </div>
+        <div class="input-group">
+            <label for="currentLevel" class="label">当前等级：</label>
+            <input type="number" id="currentLevel" min="1" max="200" value="1" oninput="calculateCards()" onfocus="clearDefaultValue(this)">
+        </div>
+        <div class="input-group">
+            <label for="targetLevel" class="label">目标等级：</label>
+            <input type="number" id="targetLevel" min="1" max="200" value="1" oninput="calculateCards()" onfocus="clearDefaultValue(this)">
+        </div>
+        <div class="result-container">
+            <p id="result" class="result"></p>
+            <button class="order-button" onclick="createOrder()">创建淘宝订单</button>
+        </div>
+<div class="trade-url-section">
+    <h2>怎么找自己的交易URL</h2>
+    <button class="url-button" onclick="openMobileSteamURL()">手机Steam获取交易URL</button>
+    <button class="url-button" onclick="openComputerSteamURL()">电脑Steam获取交易URL</button>
+</div>
+<div class="tip">
+    <p><span class="highlight">tips：</span><span class="highlight-text">请将你的交易URL填写在订单备注中！！！</span></p>
+</div>
+    <p><span class="highlight"></span><span class="highlight-text">标准版与豪华版仅为付款单位，与实际卡牌品质无关</span></p>
+    <p><span class="highlight"></span><span class="highlight-text">下单前请先公开库存信息，否则无法发送交易报价</span></p>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
