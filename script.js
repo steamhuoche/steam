@@ -41,7 +41,7 @@ function createOrder() {
     window.open("https://item.taobao.com/item.htm?spm=a21dvs.23580594.0.0.1d293d0dBdD9cp&ft=t&id=680282721841", "_blank");
 }
 function openMobileSteamURL() {
-    window.open("https://tbm-auth.alicdn.com/8713a9bf85650d60/4253256fe1f06cfe/20230106_d6395def5a0ed446_392937708871_mp4_264_hd_taobao.mp4?auth_key=1691435944-0-0-36a39607bed439f4823d44303994acad&t=215077ea16914332448798046ebc5a&b=video_plus&p=cloudvideo_http_seller_sucai_vod_publish");
+    window.open("https://www.bilibili.com/video/BV1N8411o7Hk/");
 }
 
 function openComputerSteamURL() {
