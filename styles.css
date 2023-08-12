@@ -151,3 +151,8 @@ input {
     color: #e74c3c;
     font-weight: normal;
 }
+
+.total-price {
+    color:  #9b59b6; /* 紫色 */
+    font-weight: bold;
+}
