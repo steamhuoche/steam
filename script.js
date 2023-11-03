@@ -1,6 +1,6 @@
 function calculateCards() {
-    const standardPrice = 0.9; // 标准版价格
-    const deluxePrice = 1;    // 豪华版价格
+    const standardPrice = 1.2; // 标准版价格
+    const deluxePrice = 1.2;    // 豪华版价格
 
     const currentLevel = parseInt(document.getElementById("currentLevel").value);
     const targetLevel = parseInt(document.getElementById("targetLevel").value);
